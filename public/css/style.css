@@ -1,0 +1,87 @@
+/* Reset de estilos */
+body, h1, h2, h3, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 80;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 120px;
+    color: #0056a6;
+}
+
+h2 {
+    font-size: 28px;
+    color: #0056a6;
+    margin: 40px 0 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #0056a6;
+    margin: 30px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #0056a6;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056a6;
+}
+
+.session-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.session-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0056a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.session-button:hover {
+    background-color: #0056a6;
+    cursor: pointer;
+}
