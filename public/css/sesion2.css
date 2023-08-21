@@ -7,27 +7,60 @@ body, h1, ul {
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: whitesmoke;
-    color: #333;
+    background-color: #00173E;
+    color: white;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-    box-sizing: border-box;
-    position: relative;
+.header {
+    background-color: #002855;
+    color: white;
+    padding: 15px 20px;
 }
 
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    max-width: 100px;
+.header .logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #0056a6;
+}
+
+.container {
+    background-color: #002855;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 h1 {
@@ -69,7 +102,7 @@ a:hover {
     font-size: 20px;
     line-height: 1.8;
     margin-bottom: 30px;
-    color: #333;
+    color: white;
     text-align: justify;
 }
 
@@ -77,13 +110,13 @@ a:hover {
     text-align: center;
     margin-top: 50px;
     padding: 20px;
-    background-color: black;
+    background-color: #002855;
     border-top: 1px solid #ccc;
     font-size: 14px;
     color: #777;
 }
 
-/* Agrega los estilos adicionales para el formulario */
+/* Estilos para los botones fuera del contenedor */
 .button-container {
     display: flex;
     justify-content: space-between;
@@ -94,15 +127,15 @@ a:hover {
 .button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #3498db;
+    background-color: #007bff;
     color: white;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 18px;
     transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #2980b9;
+    background-color: #0056a6;
     cursor: pointer;
 }

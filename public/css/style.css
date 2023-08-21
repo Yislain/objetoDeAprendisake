@@ -8,94 +8,119 @@ body, h1, h2, h3, ul, ol, li {
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+    color: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #00173E;
 }
 
 .container {
     max-width: 900px;
-    margin: 80px; /* Corregido: Agregado "px" después del valor */
+    margin: 0 auto; /* Centro horizontalmente */
     padding: 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center; /* Centro verticalmente */
     min-height: 100vh;
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 120px;
-    color: #0056a6;
+    color: #fff; /* Cambiado a color blanco */
 }
 
 h2 {
     font-size: 28px;
-    color: #0056a6;
+    color: #fff; /* Cambiado a color blanco */
     margin: 40px 0 20px;
 }
 
-h3 {
-    font-size: 24px;
-    color: #0056a6;
-    margin: 30px 0;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #0056a6;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #0056a6;
-}
-
-.session-buttons {
+/* Estilo para los logotipos y texto de la barra */
+.header {
+    background-color: #002855;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
-.session-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #0056a6;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
+.logo-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Para que ocupe el espacio restante */
 }
 
-.session-button:hover {
-    background-color: #0056a6;
-    cursor: pointer;
-}
-
-/* Estilo para los logotipos */
 .logo-images {
-    position: absolute;
-    top: 20px;
-    left: 20px;
     display: flex;
     align-items: center;
 }
 
+.logo-text {
+    font-size: 24px;
+    color: #fff;
+    margin: auto; /* Centro horizontalmente */
+    margin-left: 2cm; /* Mover 2 cm hacia la izquierda */
+}
+
 .logo-image {
-    width: 50px;
+    width: 150px; /* Aumentado el tamaño de los logos */
     margin-right: 10px;
 }
+
+/* Estilos para la selección de sesión */
+.session-selection {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 4cm; /* Cambiado a 4cm */
+    display: flex; /* Usar flexbox para centrar verticalmente */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    align-items: center; /* Centro horizontalmente */
+    justify-content: center; /* Centro verticalmente */
+    min-height: 45vh; /* Toma al menos el 100% de la altura de la ventana */
+}
+
+.white-text {
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+.session-list {
+    list-style: none;
+    padding: 0;
+}
+
+.session-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 22px 1; /* Mayor espacio entre los enlaces de sesión */
+    transition: color 0.3s ease;
+}
+
+.session-link:hover {
+    color: #0056a6;
+}
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #002855;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    position: fixed; /* Cambiado a fixed */
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+
