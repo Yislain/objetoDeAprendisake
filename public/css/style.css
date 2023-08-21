@@ -18,7 +18,7 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 80;
+    margin: 80px; /* Corregido: Agregado "px" después del valor */
     padding: 40px;
     box-sizing: border-box;
     display: flex;
@@ -84,4 +84,18 @@ a:hover {
 .session-button:hover {
     background-color: #0056a6;
     cursor: pointer;
+}
+
+/* Estilo para los logotipos */
+.logo-images {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    margin-right: 10px;
 }
