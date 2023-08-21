@@ -64,12 +64,12 @@ body {
 
 .session-content {
     color: white;
-    text-align: justify;
+    text-align: start;
     padding: 18px;
     margin-top: 0px;
-    margin-bottom: 1px;
+    margin-bottom: 0.001%; /* Espacio de 1 centímetro entre párrafos */
     font-size: 20px;
-    line-height: 1.2; /* Ajuste del espacio entre líneas */
+    line-height: 1.35;
 }
 
 .slides-container {
@@ -101,7 +101,7 @@ iframe {
 
 .button {
     padding: 15px 30px;
-    background-color: #007bff;
+    background-color: #04A586;
     color: white;
     text-decoration: none;
     border-radius: 5px;
