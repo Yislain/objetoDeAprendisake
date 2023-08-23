@@ -121,3 +121,10 @@ h2 {
     margin: 0 10px;
     font-size: 18px;
 }
+
+/* Estilos para tamaños de pantalla pequeños */
+@media (max-width: 768px) {
+    .session-selection {
+        margin-bottom: 3cm; /* Ajusta el espacio en pantalla pequeña */
+    }
+}
