@@ -121,26 +121,3 @@ h2 {
     margin: 0 10px;
     font-size: 18px;
 }
-
-/* Estilos para tamaños de pantalla pequeños */
-
-/* Estilos para tamaños de pantalla muy pequeños (como dispositivos móviles) */
-@media (max-width: 480px) {
-    .logo-text {
-        font-size: 20px; /* Tamaño de fuente reducido */
-        margin: 5px 0; /* Espacio reducido */
-    }
-
-    .session-selection {
-        min-height: 40vh; /* Altura mínima reducida */
-    }
-
-    .session-link {
-        font-size: 18px; /* Tamaño de fuente reducido */
-        margin: 10px 0.5em; /* Espacio reducido */
-    }
-
-    .footer p {
-        font-size: 14px; /* Tamaño de fuente reducido */
-    }
-}
