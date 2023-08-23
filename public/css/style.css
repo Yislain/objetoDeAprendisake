@@ -123,28 +123,6 @@ h2 {
 }
 
 /* Estilos para tamaños de pantalla pequeños */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column; /* Apilar elementos en pantalla pequeña */
-        align-items: flex-start; /* Alinear al inicio */
-    }
-
-    .logo-images {
-        margin-bottom: 10px; /* Separación entre logos en pantalla pequeña */
-    }
-
-    .logo-text {
-        margin: 10px 0; /* Espacio entre logo y texto en pantalla pequeña */
-    }
-
-    .session-selection {
-        margin-bottom: 2cm; /* Espacio reducido en pantalla pequeña */
-    }
-
-    .footer {
-        position: static; /* Cambiado a static en pantalla pequeña */
-    }
-}
 
 /* Estilos para tamaños de pantalla muy pequeños (como dispositivos móviles) */
 @media (max-width: 480px) {
