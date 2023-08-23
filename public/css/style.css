@@ -128,3 +128,10 @@ h2 {
         margin-bottom: 3cm; /* Ajusta el espacio en pantalla pequeña */
     }
 }
+/* Agrega este estilo al final de tu archivo CSS */
+
+.left-align {
+    text-align: left;
+    font-size: 12px; /* Puedes ajustar el valor según tus preferencias */
+
+}
