@@ -80,7 +80,7 @@ h2 {
     flex-direction: column; /* Apilar elementos verticalmente */
     align-items: center; /* Centro horizontalmente */
     justify-content: center; /* Centro verticalmente */
-    min-height: 45vh; /* Toma al menos el 100% de la altura de la ventana */
+    min-height: 35vh; /* Toma al menos el 100% de la altura de la ventana */
 }
 
 .white-text {
@@ -133,5 +133,12 @@ h2 {
 .left-align {
     text-align: left;
     font-size: 12px; /* Puedes ajustar el valor según tus preferencias */
-
 }
+
+/* Resto de los estilos */
+
+.session-link.bibliografias-link {
+    font-size: 14px; /* Cambia el tamaño de fuente para el enlace "Bibliografías" */
+}
+
+/* Resto de los estilos */
