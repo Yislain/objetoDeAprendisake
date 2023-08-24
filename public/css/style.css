@@ -53,24 +53,6 @@ h2 {
     align-items: center;
     flex-grow: 1; /* Para que ocupe el espacio restante */
 }
-
-.logo-images {
-    display: flex;
-    align-items: center;
-}
-
-.logo-text {
-    font-size: 24px;
-    color: #fff;
-    margin: auto; /* Centro horizontalmente */
-    margin-left: 2cm; /* Mover 2 cm hacia la izquierda */
-}
-
-.logo-image {
-    width: 150px; /* Aumentado el tamaño de los logos */
-    margin-right: 10px;
-}
-
 /* Estilos para la selección de sesión */
 .session-selection {
     text-align: center;
@@ -167,18 +149,4 @@ h2 {
     margin-right: 10px;
 }
 
-/* Media query para tamaños de pantalla pequeños (móvil) */
-@media (max-width: 768px) {
-    .logo-bar {
-        padding: 5px; /* Ajusta el espacio interno en móvil */
-    }
 
-    .logo-text {
-        font-size: 20px; /* Ajusta el tamaño del texto en móvil */
-    }
-
-    .logo-image {
-        width: 70px; /* Ajusta el tamaño de los logos en móvil */
-        margin-right: 2px; /* Ajusta el espacio entre logos en móvil */
-    }
-}
