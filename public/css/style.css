@@ -18,24 +18,24 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 0 auto; /* Centro horizontalmente */
+    margin: 0 auto;
     padding: 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centro verticalmente */
+    align-items: center;
     min-height: 100vh;
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 120px;
-    color: #fff; /* Cambiado a color blanco */
+    color: #fff;
 }
 
 h2 {
     font-size: 28px;
-    color: #fff; /* Cambiado a color blanco */
+    color: #fff;
     margin: 40px 0 20px;
 }
 
@@ -62,28 +62,28 @@ h2 {
 .logo-text {
     font-size: 20px;
     color: #fff;
-    margin: auto;
-    margin-left: 1cm;
+    margin: 0.5cm; /* Ajuste para el margen izquierdo */
 }
 
 .logo-image {
     width: 150px;
     margin-right: 10px;
 }
+
 /* Estilos para la selección de sesión */
 .session-selection {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 4cm; /* Cambiado a 4cm */
-    display: flex; /* Usar flexbox para centrar verticalmente */
-    flex-direction: column; /* Apilar elementos verticalmente */
-    align-items: center; /* Centro horizontalmente */
-    justify-content: center; /* Centro verticalmente */
-    min-height: 35vh; /* Toma al menos el 100% de la altura de la ventana */
+    margin-bottom: 4cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
 }
 
 .white-text {
-    color: #fff; /* Cambiar el color del texto a blanco */
+    color: #fff;
 }
 
 .session-list {
@@ -95,7 +95,7 @@ h2 {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    margin: 22px 1; /* Mayor espacio entre los enlaces de sesión */
+    margin: 22px 1;
     transition: color 0.3s ease;
 }
 
@@ -109,7 +109,7 @@ h2 {
     padding: 5px;
     color: #fff;
     text-align: center;
-    position: static; /* Cambiado a fixed */
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -124,24 +124,17 @@ h2 {
 /* Estilos para tamaños de pantalla pequeños */
 @media (max-width: 768px) {
     .session-selection {
-        margin-bottom: 3cm; /* Ajusta el espacio en pantalla pequeña */
+        margin-bottom: 3cm;
     }
 }
-/* Agrega este estilo al final de tu archivo CSS */
 
+/* Agrega este estilo al final de tu archivo CSS */
 .left-align {
     text-align: left;
-    font-size: 12px; /* Puedes ajustar el valor según tus preferencias */
+    font-size: 12px;
 }
 
 /* Resto de los estilos */
-
 .session-link.bibliografias-link {
-    font-size: 15px; /* Cambia el tamaño de fuente para el enlace "Bibliografías" */
+    font-size: 15px;
 }
-
-/* Resto de los estilos */
-
-/* Estilo para la barra de logos en versión móvil */
-
-
