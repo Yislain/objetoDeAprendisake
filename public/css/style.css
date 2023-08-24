@@ -148,8 +148,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px; /* Ajusta el espacio interno de la barra */
-    background-color: #002855;
 }
 
 .logo-images {
@@ -158,14 +156,15 @@ h2 {
 }
 
 .logo-text {
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
-    margin-left: 115px; /* Ajusta el espacio entre logos y texto */
+    margin: auto;
+    margin-left: 1cm;
 }
 
 .logo-image {
-    width: 150px; /* Ajusta el tamaño de los logos en móvil */
-    margin-right: 9px; /* Ajusta el espacio entre logos */
+    width: 150px;
+    margin-right: 10px;
 }
 
 /* Media query para tamaños de pantalla pequeños (móvil) */
