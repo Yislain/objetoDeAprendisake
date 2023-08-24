@@ -51,7 +51,24 @@ h2 {
 .logo-bar {
     display: flex;
     align-items: center;
-    flex-grow: 1; /* Para que ocupe el espacio restante */
+    justify-content: space-between;
+}
+
+.logo-images {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    margin-left: 1cm;
+}
+
+.logo-image {
+    width: 150px;
+    margin-right: 10px;
 }
 /* Estilos para la selección de sesión */
 .session-selection {
@@ -126,27 +143,5 @@ h2 {
 /* Resto de los estilos */
 
 /* Estilo para la barra de logos en versión móvil */
-.logo-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo-images {
-    display: flex;
-    align-items: center;
-}
-
-.logo-text {
-    font-size: 20px;
-    color: #fff;
-    margin: auto;
-    margin-left: 1cm;
-}
-
-.logo-image {
-    width: 150px;
-    margin-right: 10px;
-}
 
 
