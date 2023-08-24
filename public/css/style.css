@@ -138,7 +138,48 @@ h2 {
 /* Resto de los estilos */
 
 .session-link.bibliografias-link {
-    font-size: 14px; /* Cambia el tamaño de fuente para el enlace "Bibliografías" */
+    font-size: 15px; /* Cambia el tamaño de fuente para el enlace "Bibliografías" */
 }
 
 /* Resto de los estilos */
+
+/* Estilo para la barra de logos en versión móvil */
+.logo-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px; /* Ajusta el espacio interno de la barra */
+    background-color: #002855;
+}
+
+.logo-images {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 115px; /* Ajusta el espacio entre logos y texto */
+}
+
+.logo-image {
+    width: 150px; /* Ajusta el tamaño de los logos en móvil */
+    margin-right: 9px; /* Ajusta el espacio entre logos */
+}
+
+/* Media query para tamaños de pantalla pequeños (móvil) */
+@media (max-width: 768px) {
+    .logo-bar {
+        padding: 5px; /* Ajusta el espacio interno en móvil */
+    }
+
+    .logo-text {
+        font-size: 20px; /* Ajusta el tamaño del texto en móvil */
+    }
+
+    .logo-image {
+        width: 70px; /* Ajusta el tamaño de los logos en móvil */
+        margin-right: 2px; /* Ajusta el espacio entre logos en móvil */
+    }
+}
